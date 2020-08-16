@@ -56,6 +56,20 @@ html, body {
     font-family: 'Roboto', sans-serif;
 }
 
+header nav {
+    width: 60%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 2%;
+    font-size: 14px;
+}
+
+header nav a {
+    color: black;
+    text-decoration: none;
+}
+
 h1, h2, h3, h4, h5 {
     font-size: 18px;
     margin-bottom: 15px;
@@ -64,6 +78,21 @@ h1, h2, h3, h4, h5 {
 
 p {
     line-height: 1.4;
+}
+
+
+.main {
+    display: flex;
+    justify-content: space-between;
+    width: 800px;
+    margin: 0 auto;
+    padding: 3%;
+}
+
+div.jumbo {
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
 }
 
 .container {
