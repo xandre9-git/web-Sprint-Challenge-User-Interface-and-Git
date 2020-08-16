@@ -57,9 +57,9 @@ html, body {
 }
 
 header nav {
-    width: 60%;
+    width: 80%;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
     align-items: center;
     padding: 20px 2%;
     font-size: 14px;
@@ -90,6 +90,13 @@ p {
 }
 
 div.jumbo {
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+    padding: 0 0 20px 0;
+}
+
+div.jumboAbout {
     display: flex;
     justify-content: center;
     margin: 0 auto;
