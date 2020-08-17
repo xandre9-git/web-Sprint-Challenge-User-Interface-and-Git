@@ -34,13 +34,24 @@ Edit this document to include your answers after each question. Make sure to lea
 
 1. If you were to describe semantic HTML to the next cohort of students, what would you say?
 
+Semantic HTML is html coded in a way so that the normal user can understand the design of the page. The tags used in semantic html convey informational meaning in the page.
+
 2. Name two big differences between ```display: block;``` and ```display: inline;```.
+
+```display: block``` is placed on its own line below a previous element. It will take up 100% of width. ```display: inline```
+will not be placed on its own line and will take up as much width as needed by the text or image.
 
 3. What are the 4 areas of the box model?
 
+Border, margin, padding, and content.
+
 4. While using flexbox, what axis does the following property work on: ```align-items: center```?
 
+```align-items: center``` works on the cross-axis.
+
 5. Explain why git is valuable to a team of developers.
+
+Git is valuable to a team of developers because it allows them to have version control. Multiple developers can work on the same file and not worry about overwriting other's code via branching. Git allows developers to upload their branches with commit messages so that other developers can view. Git can be used as a backup since it allows developers to store their projects remotely online and locally on their machines. Also git provides ways to restore previous versions in case changes made breaks the program. 
 
 You are expected to be able to answer all these questions. Your responses contribute to your Sprint Challenge grade. Skipping this section *will* prevent you from passing this challenge.
 
@@ -56,7 +67,7 @@ You are expected to be able to answer all these questions. Your responses contri
 Follow these steps for completing your project.
 
 - [ ] Submit a Pull-Request to merge <firstName-lastName> Branch into master (student's  Repo). **Please don't merge your own pull request**
-- [ ] Add your Team Lead as a reviewer on the pull-request
+- [x] Add your Team Lead as a reviewer on the pull-request
 - [ ] Your Team Lead will count the project as complete by merging the branch back into master.
  
 
