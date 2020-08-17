@@ -74,10 +74,12 @@ h1, h2, h3, h4, h5 {
     font-size: 18px;
     margin-bottom: 15px;
     font-family: 'Rubik', sans-serif;
+    padding: 2% 0 ;
 }
 
 p {
     line-height: 1.4;
+    padding: 1% 0 4% 0;
 }
 
 hr {
@@ -227,6 +229,8 @@ div.jumboAbout {
     padding: 2%;
 }
 
+
+
 .worktogether {
     display: flex;
 }
@@ -252,5 +256,17 @@ footer nav {
 
 footer nav a {
     color: white;
+    text-decoration: none;
+}
+
+a.buttons {
+    display: flex;
+    flex-flow: column wrap;
+    border: 2px solid black;
+    border-radius: 10px;
+    height: 30px;
+    width: 35%;
+    align-items: center;
+    text-align: center;
     text-decoration: none;
 }
