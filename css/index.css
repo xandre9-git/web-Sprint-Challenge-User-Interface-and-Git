@@ -217,6 +217,25 @@ div.jumboAbout {
     padding: 2%;
 }
 
+.bottom-about-content {
+    display: flex;
+}
+
+.bottomabout {
+  
+    flex-flow: row wrap;
+    padding: 2%;
+}
+
+.worktogether {
+    display: flex;
+}
+
+.work {
+    flex-flow: row wrap;
+    padding: 2% 2% 4% 2%;
+}
+
 footer {
     width: 100%;
     background: black;
